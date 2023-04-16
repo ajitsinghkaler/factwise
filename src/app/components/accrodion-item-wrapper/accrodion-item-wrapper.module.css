@@ -5,3 +5,9 @@
  * .container {
  * }
 */
+.wrapper {
+    border: 1px solid #e2e2e3;
+    margin: 1rem 0;
+    border-radius: 10px;
+    padding: 1rem;
+}

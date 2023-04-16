@@ -35,11 +35,11 @@ export function AccrodionItemWrapper({ setIsEditing, isEditing, celebrity }: Acc
 
 
   return (
-    <>
+    <div className={styles.wrapper}>
       {isEdit ?
         <EditForm isActive={isActive} setIsActive={allowActivating} setIsEdit={editAllowed} celebrity={celebrity} /> :
         <AccrodionItem isActive={isActive} setIsActive={allowActivating} setIsEdit={editAllowed} celebrity={celebrity} />}
-    </>
+    </div>
   );
 }
 
